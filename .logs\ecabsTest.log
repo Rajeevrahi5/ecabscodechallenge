@@ -1,0 +1,108 @@
+2020-01-14 19:23:40 INFO  EcabsService:42 - ***************************************************
++*         Executing REST Assured tests..        *
++*******************************************************
+2020-01-14 19:23:40 INFO  EcabsService:101 - ***************************************************
++*     Exiting from REST Assured Test after execution      *
++*******************************************************
+2020-01-14 19:27:07 INFO  EcabsService:42 - ***************************************************
++*         Executing REST Assured tests..        *
++*******************************************************
+2020-01-14 19:27:07 INFO  EcabsService:82 - ***************************************************
++*         Driver Launched                       *
++*******************************************************
+2020-01-14 19:27:09 INFO  EcabsService:99 - ***************************************************
++*     Exiting from REST Assured Test after execution      *
++*******************************************************
+2020-01-14 19:33:45 INFO  EcabsService:42 - 
+***************************************************
++*         Executing REST Assured tests..          *
++*********************************************************
+
+2020-01-14 19:33:45 INFO  EcabsService:82 - 
+***************************************************
++*         Driver Launched                       *
++*******************************************************
+
+2020-01-14 19:33:53 INFO  EcabsService:98 - 
+***************************************************
++*     Exiting from REST Assured Test after execution      *
++*******************************************************
+
+2020-01-14 19:36:36 INFO  EcabsService:42 - 
+***************************************************
++*         Executing REST Assured tests..          *
++*********************************************************
+
+2020-01-14 19:37:03 INFO  EcabsService:96 - 
+***************************************************
++*     Exiting from REST Assured Test after execution      *
++*******************************************************
+
+2020-01-14 19:43:29 INFO  EcabsService:42 - 
+***************************************************
++*         Executing REST Assured tests..          *
++*********************************************************
+
+2020-01-14 19:44:05 INFO  EcabsService:111 - 
+***************************************************
++*     Exiting from REST Assured Test after execution      *
++*******************************************************
+
+2020-01-14 19:50:19 INFO  EcabsService:49 - 
+***************************************************
++*         Chrome Driver Launched                       *
++*******************************************************
+
+2020-01-14 19:52:02 INFO  EcabsService:49 - 
+***************************************************
++*         Chrome Driver Launched                       *
++*******************************************************
+
+2020-01-14 19:53:44 INFO  EcabsService:49 - 
+***************************************************
++*         Chrome Driver Launched                       *
++*******************************************************
+
+2020-01-14 19:56:26 INFO  EcabsService:49 - 
+***************************************************
++*         Chrome Driver Launched                       *
++*******************************************************
+
+2020-01-14 19:58:32 INFO  EcabsService:130 - Scenario failed and screenshot saved in outputFiles folder
+2020-01-14 19:58:32 INFO  EcabsService:140 - 
+
+Closing the Browser.
+2020-01-14 20:35:09 INFO  EcabsService:49 - 
+***************************************************
++*         Chrome Driver Launched                       *
++*******************************************************
+
+2020-01-14 20:36:04 INFO  ExpediaSearchFlight:45 - URL: https://www.expedia.com/ is launched.
+2020-01-14 20:36:06 INFO  ExpediaSearchFlight:54 - Flight option from menu is clicked.
+2020-01-14 20:36:08 INFO  ExpediaSearchFlight:60 - Multi city travel option is selected.
+2020-01-14 20:36:11 INFO  ExpediaSearchFlight:68 - First Departure City is entered
+2020-01-14 20:36:16 INFO  ExpediaSearchFlight:77 - First Arrival City is entered
+2020-01-14 20:36:16 INFO  ExpediaSearchFlight:85 - First Departure Date is entered
+2020-01-14 20:36:17 INFO  ExpediaSearchFlight:99 - Total number of travellers is selected
+2020-01-14 20:36:21 INFO  ExpediaSearchFlight:112 - Second Departure City is entered
+2020-01-14 20:36:26 INFO  ExpediaSearchFlight:121 - Second Arrival City is entered
+2020-01-14 20:36:26 INFO  ExpediaSearchFlight:129 - Second Arrival Date is entered
+2020-01-14 20:36:28 INFO  ExpediaSearchFlight:139 - Clicked on Add another flight button
+2020-01-14 20:36:33 INFO  ExpediaSearchFlight:148 - Third Departure City is entered
+2020-01-14 20:36:37 INFO  ExpediaSearchFlight:157 - Third Arrival City is entered
+2020-01-14 20:36:37 INFO  ExpediaSearchFlight:165 - Third Departure Date is entered
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:175 - Click on Search Button
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:183 - First Departure City is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:194 - First Arrival City is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:205 - First Departure Date is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:216 - Number of travellers is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:227 - First Departure City is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:238 - Second Arrival City is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:249 - Second Departure City is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:260 - Third Departure City is verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:271 - Third Arrival City is Verified
+2020-01-14 20:36:58 INFO  ExpediaSearchFlight:282 - Third Departure Date is verified
+2020-01-14 20:37:01 INFO  ExpediaSearchFlight:311 - Individual Price and Total Price is Verified.
+2020-01-14 20:37:01 INFO  EcabsService:140 - 
+
+Closing the Browser.

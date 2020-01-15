@@ -1,0 +1,67 @@
+<h2>Reporter output</h2><table><tr><td><div "featureFile">Feature File: APITest.feature</div></td></tr>
+<tr><td><div "feature">Feature: API Automation With REST Assured</div></td></tr>
+<tr><td><div "scenario">Scenario: API Test - Get User List</div></td></tr>
+<tr><td><div "result">When  user hits the Root URL (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  User is listed and Status code and body content is verified (passed : 1s)</div></td></tr>
+<tr><td><div "scenario">Scenario: API Test - Successful Registration with valid credentials</div></td></tr>
+<tr><td><div "result">When  user hits the Root URL (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  User is registered and Status code and body content is verified (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: API Test - UnSuccessful Registration with email</div></td></tr>
+<tr><td><div "result">When  user hits the Root URL (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  Registration is failed and Status code and body content is verified (passed : 0s)</div></td></tr>
+<tr><td><div "featureFile">Feature File: APSignIn.feature</div></td></tr>
+<tr><td><div "feature">Feature: Automation Practice SignIn</div></td></tr>
+<tr><td><div "scenario">Scenario: Sign in with no credentials</div></td></tr>
+<tr><td><div "result">Given  user enters the URL (passed : 5s)</div></td></tr>
+<tr><td><div "result">When  user clicks on SignIn button at home page (passed : 7s)</div></td></tr>
+<tr><td><div "result">And  user clicks on SignIn button at account page (passed : 4s)</div></td></tr>
+<tr><td><div "result">Then  error message related to Email is thrown (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Sign in with email and empty password</div></td></tr>
+<tr><td><div "result">Given  user enters the URL (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  user clicks on SignIn button at home page (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  user enters Email ID (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  user clicks on SignIn button at account page (passed : 3s)</div></td></tr>
+<tr><td><div "result">Then  error message related to password is thrown (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Sign in with password and empty email</div></td></tr>
+<tr><td><div "result">Given  user enters the URL (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  user clicks on SignIn button at home page (passed : 5s)</div></td></tr>
+<tr><td><div "result">And  user enters Password (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  user clicks on SignIn button at account page (passed : 3s)</div></td></tr>
+<tr><td><div "result">Then  error message related to Email is thrown (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Sign in with incorrect credentials</div></td></tr>
+<tr><td><div "result">Given  user enters the URL (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  user clicks on SignIn button at home page (passed : 3s)</div></td></tr>
+<tr><td><div "result">And  user enters Email ID (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  user enters Password (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  user clicks on SignIn button at account page (passed : 3s)</div></td></tr>
+<tr><td><div "result">Then  Authentication fail error is thrown (passed : 0s)</div></td></tr>
+<tr><td><div "featureFile">Feature File: ECSearch.feature</div></td></tr>
+<tr><td><div "feature">Feature: Expedia Flight Search</div></td></tr>
+<tr><td><div "result">Given  user launch expedia URL (passed : 4s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Search multi city flight and verify the price</div></td></tr>
+<tr><td><div "result">When  User clicks on Flight option (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  User clicks on multi city option (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  Enter first Departure city (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  Enter first Arrival city (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  Enter first Departure date (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Select number of travellers (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Enter second Departure city (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  Enter second Arrival city (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  Enter second Departure date (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Click on Add another flight button (passed : 2s)</div></td></tr>
+<tr><td><div "result">And  Enter third Departure city (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  Enter third Arrival city (passed : 4s)</div></td></tr>
+<tr><td><div "result">And  Enter third Departure date (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  Click on Search button (passed : 7s)</div></td></tr>
+<tr><td><div "result">And  Verify first Departure city (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify first Arrival city (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify first Departure date (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify number of travellers (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify second Departure city (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify second Arrival city (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify second Departure date (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify third Departure city (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify third Arrival city (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify third Departure date (passed : 0s)</div></td></tr>
+<tr><td><div "result">And  Verify individual and total price (passed : 2s)</div></td></tr>
+</table>

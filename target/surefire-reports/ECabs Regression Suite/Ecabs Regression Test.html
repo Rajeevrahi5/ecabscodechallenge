@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TestNG:  Ecabs Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Ecabs Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 15 16:34:32 CET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108198 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunners.TestRunner.run_cukes()'><b>run_cukes</b><br>Test class: testRunners.TestRunner<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-891786282" onClick='toggleBox("Output-891786282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-891786282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-891786282">
+<div "featureFile">Feature File: APITest.feature</div><br/>
+<div "feature">Feature: API Automation With REST Assured</div><br/>
+<div "scenario">Scenario: API Test - Get User List</div><br/>
+<div "result">When  user hits the Root URL (passed : 0s)</div><br/>
+<div "result">Then  User is listed and Status code and body content is verified (passed : 1s)</div><br/>
+<div "scenario">Scenario: API Test - Successful Registration with valid credentials</div><br/>
+<div "result">When  user hits the Root URL (passed : 0s)</div><br/>
+<div "result">Then  User is registered and Status code and body content is verified (passed : 0s)</div><br/>
+<div "scenario">Scenario: API Test - UnSuccessful Registration with email</div><br/>
+<div "result">When  user hits the Root URL (passed : 0s)</div><br/>
+<div "result">Then  Registration is failed and Status code and body content is verified (passed : 0s)</div><br/>
+<div "featureFile">Feature File: APSignIn.feature</div><br/>
+<div "feature">Feature: Automation Practice SignIn</div><br/>
+<div "scenario">Scenario: Sign in with no credentials</div><br/>
+<div "result">Given  user enters the URL (passed : 5s)</div><br/>
+<div "result">When  user clicks on SignIn button at home page (passed : 7s)</div><br/>
+<div "result">And  user clicks on SignIn button at account page (passed : 4s)</div><br/>
+<div "result">Then  error message related to Email is thrown (passed : 0s)</div><br/>
+<div "scenario">Scenario: Sign in with email and empty password</div><br/>
+<div "result">Given  user enters the URL (passed : 3s)</div><br/>
+<div "result">When  user clicks on SignIn button at home page (passed : 4s)</div><br/>
+<div "result">And  user enters Email ID (passed : 0s)</div><br/>
+<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div><br/>
+<div "result">Then  error message related to password is thrown (passed : 0s)</div><br/>
+<div "scenario">Scenario: Sign in with password and empty email</div><br/>
+<div "result">Given  user enters the URL (passed : 3s)</div><br/>
+<div "result">When  user clicks on SignIn button at home page (passed : 5s)</div><br/>
+<div "result">And  user enters Password (passed : 0s)</div><br/>
+<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div><br/>
+<div "result">Then  error message related to Email is thrown (passed : 0s)</div><br/>
+<div "scenario">Scenario: Sign in with incorrect credentials</div><br/>
+<div "result">Given  user enters the URL (passed : 3s)</div><br/>
+<div "result">When  user clicks on SignIn button at home page (passed : 3s)</div><br/>
+<div "result">And  user enters Email ID (passed : 0s)</div><br/>
+<div "result">And  user enters Password (passed : 0s)</div><br/>
+<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div><br/>
+<div "result">Then  Authentication fail error is thrown (passed : 0s)</div><br/>
+<div "featureFile">Feature File: ECSearch.feature</div><br/>
+<div "feature">Feature: Expedia Flight Search</div><br/>
+<div "result">Given  user launch expedia URL (passed : 4s)</div><br/>
+<div "scenario">Scenario: Search multi city flight and verify the price</div><br/>
+<div "result">When  User clicks on Flight option (passed : 2s)</div><br/>
+<div "result">And  User clicks on multi city option (passed : 2s)</div><br/>
+<div "result">And  Enter first Departure city (passed : 2s)</div><br/>
+<div "result">And  Enter first Arrival city (passed : 4s)</div><br/>
+<div "result">And  Enter first Departure date (passed : 0s)</div><br/>
+<div "result">And  Select number of travellers (passed : 0s)</div><br/>
+<div "result">And  Enter second Departure city (passed : 4s)</div><br/>
+<div "result">And  Enter second Arrival city (passed : 4s)</div><br/>
+<div "result">And  Enter second Departure date (passed : 0s)</div><br/>
+<div "result">And  Click on Add another flight button (passed : 2s)</div><br/>
+<div "result">And  Enter third Departure city (passed : 4s)</div><br/>
+<div "result">And  Enter third Arrival city (passed : 4s)</div><br/>
+<div "result">And  Enter third Departure date (passed : 0s)</div><br/>
+<div "result">Then  Click on Search button (passed : 7s)</div><br/>
+<div "result">And  Verify first Departure city (passed : 0s)</div><br/>
+<div "result">And  Verify first Arrival city (passed : 0s)</div><br/>
+<div "result">And  Verify first Departure date (passed : 0s)</div><br/>
+<div "result">And  Verify number of travellers (passed : 0s)</div><br/>
+<div "result">And  Verify second Departure city (passed : 0s)</div><br/>
+<div "result">And  Verify second Arrival city (passed : 0s)</div><br/>
+<div "result">And  Verify second Departure date (passed : 0s)</div><br/>
+<div "result">And  Verify third Departure city (passed : 0s)</div><br/>
+<div "result">And  Verify third Arrival city (passed : 0s)</div><br/>
+<div "result">And  Verify third Departure date (passed : 0s)</div><br/>
+<div "result">And  Verify individual and total price (passed : 2s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>108</td>
+<td>testRunners.TestRunner@28d25987</td></tr>
+</table><p>
+</body>
+</html>

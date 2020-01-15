@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: APITest.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: API Automation With REST Assured</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: API Test - Get User List</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User is listed and Status code and body content is verified (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: API Test - Successful Registration with valid credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  User is registered and Status code and body content is verified (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: API Test - UnSuccessful Registration with email</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user hits the Root URL (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Registration is failed and Status code and body content is verified (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: APSignIn.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Automation Practice SignIn</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Sign in with no credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user enters the URL (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  error message related to Email is thrown (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Sign in with email and empty password</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user enters the URL (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user enters Email ID (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  error message related to password is thrown (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Sign in with password and empty email</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user enters the URL (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user enters Password (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  error message related to Email is thrown (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Sign in with incorrect credentials</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user enters the URL (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user enters Email ID (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user enters Password (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Authentication fail error is thrown (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: ECSearch.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Expedia Flight Search</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user launch expedia URL (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Search multi city flight and verify the price</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User clicks on Flight option (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  User clicks on multi city option (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter first Departure city (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter first Arrival city (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter first Departure date (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Select number of travellers (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter second Departure city (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter second Arrival city (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter second Departure date (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Click on Add another flight button (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter third Departure city (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter third Arrival city (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Enter third Departure date (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Click on Search button (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify first Departure city (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify first Arrival city (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify first Departure date (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify number of travellers (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify second Departure city (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify second Arrival city (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify second Departure date (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify third Departure city (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify third Arrival city (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify third Departure date (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Verify individual and total price (passed : 2s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="ECabs Regression Suite" duration-ms="108198" started-at="2020-01-15T16:34:32 CET" finished-at="2020-01-15T16:36:20 CET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:testRunners.TestRunner@28d25987]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Ecabs Regression Test" duration-ms="108198" started-at="2020-01-15T16:34:32 CET" finished-at="2020-01-15T16:36:20 CET">
+      <class name="testRunners.TestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:testRunners.TestRunner@28d25987]" name="run_cukes" duration-ms="108175" started-at="2020-01-15T16:34:32 CET" description="Runs Cucumber Features" finished-at="2020-01-15T16:36:20 CET">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: APITest.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: API Automation With REST Assured</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: API Test - Get User List</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User is listed and Status code and body content is verified (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: API Test - Successful Registration with valid credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  User is registered and Status code and body content is verified (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: API Test - UnSuccessful Registration with email</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user hits the Root URL (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Registration is failed and Status code and body content is verified (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: APSignIn.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Automation Practice SignIn</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Sign in with no credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user enters the URL (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  error message related to Email is thrown (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Sign in with email and empty password</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user enters the URL (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user enters Email ID (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  error message related to password is thrown (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Sign in with password and empty email</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user enters the URL (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user enters Password (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  error message related to Email is thrown (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Sign in with incorrect credentials</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user enters the URL (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user clicks on SignIn button at home page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user enters Email ID (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user enters Password (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user clicks on SignIn button at account page (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Authentication fail error is thrown (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: ECSearch.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Expedia Flight Search</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user launch expedia URL (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Search multi city flight and verify the price</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User clicks on Flight option (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  User clicks on multi city option (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter first Departure city (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter first Arrival city (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter first Departure date (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Select number of travellers (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter second Departure city (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter second Arrival city (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter second Departure date (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Click on Add another flight button (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter third Departure city (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter third Arrival city (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Enter third Departure date (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Click on Search button (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify first Departure city (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify first Arrival city (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify first Departure date (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify number of travellers (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify second Departure city (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify second Arrival city (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify second Departure date (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify third Departure city (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify third Arrival city (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify third Departure date (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Verify individual and total price (passed : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- Ecabs Regression Test -->
+  </suite> <!-- ECabs Regression Suite -->
+</testng-results>
